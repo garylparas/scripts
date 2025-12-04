@@ -1,0 +1,40 @@
+# Virtual environments
+venv/
+.venv/
+env/
+.Python
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment variables
+.env
+
+# Output files
+*.json
+!package.json
+*.html
+**/results.json
+
+# User input files (may contain sensitive data)
+**/users.txt
+**/urls.txt
+
+# AWS discovery output
+aws-infrastructure-discovery-*.txt
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
