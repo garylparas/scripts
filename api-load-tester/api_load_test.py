@@ -1381,9 +1381,9 @@ def print_report(results: List[Dict], stats: Dict) -> None:
 
     # Locust-style Statistics Table
     print()
-    print(f"{BOLD}┌─────────┬──────────┬──────────┬──────────┬──────────┬──────────┬──────────┬──────────┐{RESET}")
-    print(f"{BOLD}│ Metric  │    Min   │    Avg   │   Med    │   P90    │   P95    │   P99    │    Max   │{RESET}")
-    print(f"{BOLD}├─────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤{RESET}")
+    print(f"{BOLD}┌─────────┬───────────┬───────────┬───────────┬───────────┬───────────┬───────────┬───────────┐{RESET}")
+    print(f"{BOLD}│ Metric  │    Min    │    Avg    │    Med    │    P90    │    P95    │    P99    │    Max    │{RESET}")
+    print(f"{BOLD}├─────────┼───────────┼───────────┼───────────┼───────────┼───────────┼───────────┼───────────┤{RESET}")
 
     metric_labels = [
         ("DNS", "dns_ms", BLUE),
@@ -1402,7 +1402,7 @@ def print_report(results: List[Dict], stats: Dict) -> None:
         else:
             print(f"│ {label:<7} │ {'N/A':>8} │ {'N/A':>8} │ {'N/A':>8} │ {'N/A':>8} │ {'N/A':>8} │ {'N/A':>8} │ {'N/A':>8} │")
 
-    print(f"{BOLD}└─────────┴──────────┴──────────┴──────────┴──────────┴──────────┴──────────┴──────────┘{RESET}")
+    print(f"{BOLD}└─────────┴───────────┴───────────┴───────────┴───────────┴───────────┴───────────┴───────────┘{RESET}")
 
     # Percentile Distribution Bar
     if metrics.get("total_ms"):
