@@ -36,6 +36,7 @@ A comprehensive API load testing and benchmarking tool that measures detailed ti
    python3 -m venv venv
    source venv/bin/activate  # On Windows: venv\Scripts\activate
    ```
+   Use `deactivate` to exit from virtual environment.
 
 3. Install dependencies:
    ```bash

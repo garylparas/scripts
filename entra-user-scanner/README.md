@@ -64,7 +64,7 @@ A Python script to check the status of user accounts in Microsoft Entra ID (form
    # Windows
    venv\Scripts\activate
    ```
-Use `deactivate` to exit from virtual environment.
+   Use `deactivate` to exit from virtual environment.
 
 4. Install dependencies:
    ```bash

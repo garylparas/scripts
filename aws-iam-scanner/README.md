@@ -71,6 +71,7 @@ These permissions are included in `ReadOnlyAccess` or `AdministratorAccess` mana
    # Windows
    venv\Scripts\activate
    ```
+   Use `deactivate` to exit from virtual environment.
 
 4. Install dependencies:
    ```bash
